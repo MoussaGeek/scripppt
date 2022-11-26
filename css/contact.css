@@ -1,0 +1,11 @@
+.contact_input input, select {
+    height: 50px;
+}
+.contact_input input, select, textarea {
+    border: none;
+    width: 99%;
+}
+.contact_line {
+    height: 50px;
+    line-height: 50px;
+}

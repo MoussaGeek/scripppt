@@ -6,7 +6,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
-    <link href="css/nomalize.css" rel="stylesheet">
+    <link href="css/normarize.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -27,15 +27,15 @@
         <h1>CONTACT</h1>
         <p>お問い合わせ</p>
       </div>
-      <form action="#" method="POST">
-        <table border=1 class="contact">
+      <form action="#" method="POST" id="form">
+        <table border=1 class="contact" id="table">
           <tr class="contact_line">
             <td class="contact_sign">お名前</td>
-            <td class="contact_input">空欄</td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
           </tr>
           <tr class="contact_line">
             <td class="contact_sign">ご連絡先</td>
-            <td class="contact_input">空欄</td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
           </tr>
           <tr class="contact_line">
             <td class="contact_sign"><label for="region">お住いの地域</label></td>
@@ -54,7 +54,7 @@
           </tr>
           <tr class="contact_content">
             <td class="contact_sign">内容</td>
-            <td class="contact_input">空欄</td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
           </tr>
         </table>
         <div class="contact_btn_area">
@@ -88,5 +88,6 @@
         </font>
       </p>
     </footer>
+    <script type="text/javascript" src="javascripts/validation.js"></script>
   </body>
 </html>
